@@ -1,0 +1,42 @@
+body {
+  background-color: #eee;
+}
+
+.root {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content-block {
+  width: 800px;
+  line-height: 1.7;
+  color: #454545;
+  margin-bottom: 75px;
+}
+
+.content-block,
+p {
+  font-size: 20px;
+  font-family: monospace, sans-serif;
+}
+
+.blog-post-header {
+  line-height: 1.2;
+  margin-bottom: 50px;
+}
+
+.home-header {
+  line-height: 0.7;
+  padding-bottom: 40px;
+}
+.home-header a {
+  text-decoration: underline;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .root {
+    margin: 5px;
+  }
+}
